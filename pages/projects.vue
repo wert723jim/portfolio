@@ -45,6 +45,4 @@ const query = gql`
 }
 `
 const { data, error } = await useAsyncQuery(query)
-console.log(data)
-console.log('error:', error)
 </script>
