@@ -23,5 +23,10 @@ export default defineNuxtConfig({
         httpEndpoint: 'https://api.github.com/graphql'
       }
     }
+  },
+  build: {
+    transpile: [
+      'tslib'
+    ]
   }
 })
